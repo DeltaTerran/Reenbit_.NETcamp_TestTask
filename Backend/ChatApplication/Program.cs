@@ -22,11 +22,12 @@ builder.Services.AddCors(options =>
 });
 var app = builder.Build();
 app.UseCors("AllowAngular");
-app.MapHub<ChatHub>("/chat");
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDBContext>();
     db.Database.Migrate();
 }
+app.MapHub<ChatHub>("/chat");
+
 
 app.Run();
