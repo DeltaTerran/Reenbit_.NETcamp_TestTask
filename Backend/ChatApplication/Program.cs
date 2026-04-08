@@ -27,7 +27,19 @@ builder.Services.AddDbContext<AppDBContext>(options =>
 builder.Services.AddScoped<IChatService, ChatService>();
 
 var app = builder.Build();
-
+using (var scope = app.Services.CreateScope())
+{
+    try
+    {
+        var db = scope.ServiceProvider.GetRequiredService<AppDBContext>();
+        Console.WriteLine("DB CAN CONNECT: " + db.Database.CanConnect());
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine("=== DB CONNECTION ERROR ===");
+        Console.WriteLine(ex.ToString());
+    }
+}
 app.UseHttpsRedirection();
 
 app.UseRouting();
