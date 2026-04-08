@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\migrations\\20260408103855_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:migrations\\20260408103855_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -42,100 +22,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IChatService.cs",
-              "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Services\\IChatService.cs",
-              "RelativeDocumentMoniker": "Services\\IChatService.cs",
-              "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Services\\IChatService.cs",
-              "RelativeToolTip": "Services\\IChatService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T11:14:41.11Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ChatService.cs",
-              "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Services\\ChatService.cs",
-              "RelativeDocumentMoniker": "Services\\ChatService.cs",
-              "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Services\\ChatService.cs",
-              "RelativeToolTip": "Services\\ChatService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T11:14:37.689Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChatMessage.cs",
-              "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Models\\ChatMessage.cs",
-              "RelativeDocumentMoniker": "Models\\ChatMessage.cs",
-              "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Models\\ChatMessage.cs",
-              "RelativeToolTip": "Models\\ChatMessage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T11:14:36.044Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AppDBContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Migrations\\AppDBContextModelSnapshot.cs",
-              "RelativeDocumentMoniker": "Migrations\\AppDBContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Migrations\\AppDBContextModelSnapshot.cs",
-              "RelativeToolTip": "Migrations\\AppDBContextModelSnapshot.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T11:03:51.786Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20260408103855_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Migrations\\20260408103855_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Migrations\\20260408103855_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Migrations\\20260408103855_InitialCreate.cs",
-              "RelativeToolTip": "Migrations\\20260408103855_InitialCreate.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAA2wCQAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T11:03:45.658Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T10:48:08.914Z",
+              "WhenOpened": "2026-04-08T14:12:11.503Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T10:40:26.908Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
