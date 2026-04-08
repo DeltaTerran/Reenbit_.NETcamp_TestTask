@@ -15,7 +15,7 @@ export class chatService {
       .build();
 
     this.hubConnection.start()
-      .then(() => console.log('Connection started'))
+      .then(() => this.hubConnection.invoke('LoadHistory'))
       .catch(err => console.log('Error: ', err));
   }
 
