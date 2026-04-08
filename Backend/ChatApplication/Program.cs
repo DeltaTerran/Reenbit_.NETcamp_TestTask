@@ -33,11 +33,11 @@ app.UseHttpsRedirection();
 app.UseRouting();
 app.UseCors(AllowAngular);
 
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<AppDBContext>();
-    db.Database.Migrate();
-}
+//using (var scope = app.Services.CreateScope())
+//{
+//    var db = scope.ServiceProvider.GetRequiredService<AppDBContext>();
+//    db.Database.Migrate();
+//}
 
 app.MapHub<ChatHub>("/chat").RequireCors(AllowAngular);
 
