@@ -17,5 +17,6 @@ ngOnInit(): void {
 }
 send(){
   this.chatService.sendMessage(this.user,this.message);
+  
 }
 }
