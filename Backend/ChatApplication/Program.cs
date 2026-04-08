@@ -8,7 +8,7 @@ builder.Services.AddCors(options =>
         policy => policy
             .WithOrigins(
             "http://localhost:4200",
-            "https://thankful-stone-01d738003.1.azurestaticapps.net/")
+            "https://thankful-stone-01d738003.1.azurestaticapps.net")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials());

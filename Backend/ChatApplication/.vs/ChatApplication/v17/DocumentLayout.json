@@ -13,10 +13,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -36,21 +32,10 @@
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
               "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Properties\\launchSettings.json",
               "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T05:15:33.3Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T05:15:00.624Z"
+              "WhenOpened": "2026-04-08T05:15:33.3Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -73,7 +58,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T04:58:58.531Z",
               "EditorCaption": ""
