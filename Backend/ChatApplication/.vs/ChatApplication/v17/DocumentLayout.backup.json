@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Migrations\\20260408103855_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Migrations\\20260408103855_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\contextdb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:contextdb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,20 +31,8 @@
       "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:services\\ichatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\contextdb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:contextdb\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:models\\chatmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|c:\\users\\vadim\\documents\\github\\reenbit_.netcamp_testtask\\backend\\chatapplication\\hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3ABFAB8B-B4D6-4EFE-9763-7A12CB2E42EC}|ChatApplication.csproj|solutionrelative:hubs\\chathub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +42,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "20260408103855_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Migrations\\20260408103855_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Migrations\\20260408103855_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Migrations\\20260408103855_InitialCreate.cs",
+              "RelativeToolTip": "Migrations\\20260408103855_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T10:38:56.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "ChatService.cs",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Services\\ChatService.cs",
               "RelativeDocumentMoniker": "Services\\ChatService.cs",
@@ -50,12 +67,11 @@
               "RelativeToolTip": "Services\\ChatService.cs",
               "ViewState": "AgIAABYAAAAAAAAAAAAYwA4AAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T09:52:22.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T09:52:22.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "IChatService.cs",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Services\\IChatService.cs",
               "RelativeDocumentMoniker": "Services\\IChatService.cs",
@@ -63,12 +79,11 @@
               "RelativeToolTip": "Services\\IChatService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T09:45:15.848Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T09:45:15.848Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\ContextDB\\AppDBContext.cs",
               "RelativeDocumentMoniker": "ContextDB\\AppDBContext.cs",
@@ -81,7 +96,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ChatMessage.cs",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Models\\ChatMessage.cs",
               "RelativeDocumentMoniker": "Models\\ChatMessage.cs",
@@ -94,7 +109,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -102,25 +117,24 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T05:15:33.3Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T05:15:33.3Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "ChatHub.cs",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Hubs\\ChatHub.cs",
               "RelativeDocumentMoniker": "Hubs\\ChatHub.cs",
               "ToolTip": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Hubs\\ChatHub.cs",
               "RelativeToolTip": "Hubs\\ChatHub.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAcwCIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T05:01:32.806Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Vadim\\Documents\\GitHub\\Reenbit_.NETcamp_TestTask\\Backend\\ChatApplication\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -128,8 +142,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T04:58:58.531Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-04-08T04:58:58.531Z"
             }
           ]
         }
