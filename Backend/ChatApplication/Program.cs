@@ -17,17 +17,20 @@ builder.Services.AddCors(options =>
             "http://localhost:4200",
             "https://thankful-stone-01d738003.1.azurestaticapps.net")
             .AllowAnyHeader()
-            .AllowAnyMethod()
+            .WithMethods("GET", "POST")
             .AllowCredentials());
 });
 var app = builder.Build();
+app.UseHttpsRedirection();
+
+app.UseRouting();
 app.UseCors("AllowAngular");
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<AppDBContext>();
     db.Database.Migrate();
 }
-app.MapHub<ChatHub>("/chat");
+app.MapHub<ChatHub>("/chat").RequireCors("AllowAngular");
 
 
 app.Run();

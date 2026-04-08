@@ -10,7 +10,9 @@ export class chatService {
   public messages: { user: string, text: string, sentiment?: string }[] = [];
  startConnection() {
     this.hubConnection = new signalR.HubConnectionBuilder()
-      .withUrl(environment.hubUrl)
+      .withUrl("https://localhost:7284", {
+    withCredentials: true
+  })
       .withAutomaticReconnect()
       .build();
 
