@@ -1,0 +1,20 @@
+<div>
+  <input [(ngModel)]="user" placeholder="Name" />
+  <input [(ngModel)]="message" placeholder="Message" />
+  <button (click)="send()">Send</button>
+</div>
+
+<ul class="messages">
+  @for (msg of chatService.messages; track $index) {
+    <li
+      [class.positive]="msg.sentiment === 'Positive'"
+      [class.negative]="msg.sentiment === 'Negative'"
+      [class.neutral]="!msg.sentiment || msg.sentiment === 'Neutral'">
+      <strong>{{ msg.user }}:</strong>
+      {{ msg.text }}
+      @if (msg.sentiment) {
+        <span>({{ msg.sentiment }})</span>
+      }
+    </li>
+  }
+</ul>
