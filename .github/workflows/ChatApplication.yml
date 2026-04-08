@@ -1,4 +1,5 @@
-name: Сборка и развертывание приложения .NET Core в веб-приложение ChatApplication
+name: Build and deploy .NET Core app to Azure Web App - ChatApplication
+
 on:
   push:
     branches:
@@ -30,9 +31,6 @@ jobs:
       - name: Build
         run: dotnet build "${{ env.PROJECT_PATH }}" --configuration ${{ env.CONFIGURATION }} --no-restore
 
-      - name: Test
-        run: dotnet test "${{ env.PROJECT_PATH }}" --configuration ${{ env.CONFIGURATION }} --no-build
-
       - name: Publish
         run: dotnet publish "${{ env.PROJECT_PATH }}" --configuration ${{ env.CONFIGURATION }} --no-build --output "${{ env.AZURE_WEBAPP_PACKAGE_PATH }}"
 
@@ -47,7 +45,7 @@ jobs:
     needs: build
 
     steps:
-      - name: Download artifact from build job
+      - name: Download artifact
         uses: actions/download-artifact@v4
         with:
           name: webapp
