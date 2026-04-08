@@ -38,11 +38,14 @@ using (var scope = app.Services.CreateScope())
     try
     {
         var db = scope.ServiceProvider.GetRequiredService<AppDBContext>();
+        Console.WriteLine("Starting database migration...");
         db.Database.Migrate();
+        Console.WriteLine("Database migration completed.");
     }
     catch (Exception ex)
     {
-        Console.WriteLine("Migration error: " + ex.Message);
+        Console.WriteLine("DATABASE MIGRATION ERROR:");
+        Console.WriteLine(ex.ToString());
         throw;
     }
 }
