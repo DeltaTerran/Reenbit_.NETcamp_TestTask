@@ -6,7 +6,9 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAngular",
         policy => policy
-            .WithOrigins("https://thankful-stone-01d738003.1.azurestaticapps.net/")
+            .WithOrigins(
+            "http://localhost:4200",
+            "https://thankful-stone-01d738003.1.azurestaticapps.net/")
             .AllowAnyHeader()
             .AllowAnyMethod()
             .AllowCredentials());
