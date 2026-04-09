@@ -37,30 +37,6 @@ saves message to Azure SQL
 broadcasts message via SignalR
 All connected clients receive and display the message in real time
 
- Database Schema
-Table: messages
-Column	Type	Description
-Id	int	Primary key
-UserName	nvarchar	Sender name
-Text	nvarchar	Message text
-Sentiment	nvarchar	Sentiment label
-CreatedAtUtc	datetime2	Timestamp (UTC)
-☁️ Azure Services Used
-Azure App Service (Backend hosting)
-Azure Static Web Apps (Frontend hosting)
-Azure SignalR Service
-Azure SQL Database
-Azure AI Language (Sentiment Analysis)
-
- Configuration
- Environment Variables (App Service)
-Connection Strings
-DefaultConnection = <Azure SQL connection string>
-App Settings
-Azure__SignalR__ConnectionString = <SignalR connection string>
-Azure__Language__Endpoint = <Azure Language endpoint>
-Azure__Language__Key = <Azure Language key>
-
  Running Locally
 Backend
 cd Backend/ChatApplication
