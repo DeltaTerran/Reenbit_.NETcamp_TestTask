@@ -25,6 +25,7 @@ builder.Services.AddDbContext<AppDBContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 builder.Services.AddScoped<IChatService, ChatService>();
+builder.Services.AddScoped<ISentimentService, AzureSentimentService>();
 
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())

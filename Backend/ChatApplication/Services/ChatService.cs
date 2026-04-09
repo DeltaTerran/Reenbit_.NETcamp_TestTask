@@ -7,9 +7,11 @@ namespace ChatApplication.Services
     public class ChatService : IChatService
     {
         private readonly AppDBContext _dbContext;
-        public ChatService(AppDBContext dBContext)
+        private readonly ISentimentService _sentimentService;
+        public ChatService(AppDBContext dBContext, ISentimentService sentimentService)
         {
             _dbContext = dBContext;
+            _sentimentService = sentimentService;
         }
         public async Task<List<ChatMessage>> GetRecentMessagesAsync(int count = 50)=>
               await _dbContext.messages
@@ -20,6 +22,7 @@ namespace ChatApplication.Services
 
         public async Task<ChatMessage> SaveMessageAsync(string userName, string text, string? sentiment = null)
         {
+            sentiment ??= await _sentimentService.AnalyzeAsync(text);
             var entity = new ChatMessage
             {
                 UserName = userName.Trim(),
