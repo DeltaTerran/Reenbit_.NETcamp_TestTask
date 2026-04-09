@@ -94,7 +94,8 @@ Username display
 Sentiment label visualization
 Responsive layout
 Authentication
-👨‍💻 Author
+
+Author
 
 Vadim
 .NET & Angular Developer
