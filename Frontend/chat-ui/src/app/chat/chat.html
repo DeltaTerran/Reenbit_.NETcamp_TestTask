@@ -23,7 +23,7 @@
     </div>
 
     <div class="chat-messages">
-      @for (msg of chatService.messages; track $index) {
+      @for (msg of chatService.messages(); track $index) {
         <div
           class="message"
           [class.own]="msg.user === user"

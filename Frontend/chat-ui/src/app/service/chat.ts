@@ -1,13 +1,18 @@
-import { Injectable, NgZone } from '@angular/core';
+import { Injectable, NgZone, signal } from '@angular/core';
 import * as signalR from '@microsoft/signalr';
 import { environment } from '../../environments/environment.development';
-
+export interface ChatMessage {
+  user: string;
+  text: string;
+  sentiment?: string;
+  createdAtUtc?: string;
+}
 @Injectable({
   providedIn: 'root',
 })
 export class chatService {
   private hubConnection!:signalR.HubConnection
-  public messages: { user: string, text: string, sentiment?: string; createdAtUtc?: string }[] = [];
+  public messages = signal<ChatMessage[]>([]);
 
   constructor(private ngZone: NgZone) {}
  startConnection() {
@@ -33,23 +38,28 @@ export class chatService {
    private registerListeners(): void {
     this.hubConnection.on('ReceiveMessage', (user, message, sentiment, createdAtUtc) => {
       this.ngZone.run(() => {
-        this.messages.push({
-          user,
-          text: message,
-          sentiment,
-          createdAtUtc,
-        });
+        this.messages.update((current) => [
+          ...current,
+          {
+            user,
+            text: message,
+            sentiment,
+            createdAtUtc,
+          },
+        ]);
       });
     });
-
 
     this.hubConnection.on('ReceiveHistory', (messages) => {
       this.ngZone.run(() => {
         console.log('History received:', messages);
-        this.messages = messages ?? [];
+        this.messages.set(messages ?? []);
       });
     });
   }
+
+
+    
 
   sendMessage(user: string, message: string): void {
     if (!this.hubConnection) {
