@@ -1,0 +1,41 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+TestResults/
+*.VisualState.xml
+
+# Rider
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# ASP.NET / .NET local settings
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.local.json
+
+# Secrets and certificates
+secrets.json
+*.pfx
+*.p12
+*.key
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
